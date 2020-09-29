@@ -1,2 +1,2 @@
-# DotnetCoreWepApi
-Northwind .Net Core Wep Api
+# DotnetCoreWebApi
+Northwind .Net Core Web Api
