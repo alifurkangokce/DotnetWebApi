@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2BtKVqctciDBWu52VncGQKMi399BaCjPsAhj1kyHwb6r87P1/PcoNrOTWrNS8UC2AJMCAlyMrKeYxxpizjbEng==",
+  "dgSpecHash": "ZyStySg9DJa3kVOOgX7Pwn2Y1VXGxa5IId6awVg/48JT1S81FW03fhLGaJ0J8NfC87ZY2ou69EXRUBSGf16DhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\alifurkangokce\\source\\repos\\NorthwindBackend\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\alifurkangokce\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
