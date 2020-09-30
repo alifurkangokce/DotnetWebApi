@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "piv1zfCG6FOfSXDyOeJsySuyejCztLb/soIYXh5/dZEDsloxENaPU9/hRQnpwC2ehC+szmmHDOkC0vTRyO4VBw==",
+  "dgSpecHash": "7deR1smVuWDoA4Og8yRad3tp8WIEywK0q848my8pyf9tnCf7KazHQL+7XS2DEBqEc0UPojLDss3zCjd2p+tsAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\alifurkangokce\\source\\repos\\NorthwindBackend\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
+    "C:\\Users\\alifurkangokce\\.nuget\\packages\\autofac.extras.dynamicproxy\\4.5.0\\autofac.extras.dynamicproxy.4.5.0.nupkg.sha512",
+    "C:\\Users\\alifurkangokce\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
+    "C:\\Users\\alifurkangokce\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -66,6 +69,7 @@
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\alifurkangokce\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\alifurkangokce\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",

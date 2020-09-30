@@ -141,3 +141,6 @@ C:\Users\alifurkangokce\source\repos\NorthwindBackend\WebAPI\bin\Debug\netcoreap
 C:\Users\alifurkangokce\source\repos\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\alifurkangokce\source\repos\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\alifurkangokce\source\repos\NorthwindBackend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alifurkangokce\source\repos\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\alifurkangokce\source\repos\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\alifurkangokce\source\repos\NorthwindBackend\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
