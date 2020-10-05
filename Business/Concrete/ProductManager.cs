@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspect.Autofac;
 using Business.Contants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Caching;
@@ -9,6 +10,7 @@ using Core.Utilities.Result;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,9 +21,11 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
+        
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
+           
         }
         [ValidationAspect(typeof(ProductValidator),Priority =1)]
         [CacheRemoveAspect("IProductService.Get")]
@@ -47,8 +51,10 @@ namespace Business.Concrete
 
         public IDataResult<List<Product>> GetList()
         {
+           
             return new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
         }
+        [SecuredOperation("Product.List,Admin")]
         [CacheAspect(duration:10)]
         public IDataResult<List<Product>> GetListByCategory(int categoryId)
         {
