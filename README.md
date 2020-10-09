@@ -1,2 +1,2 @@
 # DotnetCoreWebApi
-Northwind .Net Core Web Api
+.Net Core Web Api ile hazırlamış olduğum birçok teknolojinin kullanıldığı örnek bir web api projesidir.
