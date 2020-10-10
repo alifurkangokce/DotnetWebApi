@@ -10,6 +10,7 @@ using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -25,10 +26,12 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
+        private ICategoryService _categoryService;
 
-        public ProductManager(IProductDal productDal)
+        public ProductManager(IProductDal productDal, ICategoryService categoryService)
         {
             _productDal = productDal;
+            _categoryService = categoryService;
 
         }
         [ValidationAspect(typeof(ProductValidator), Priority = 1)]
@@ -37,8 +40,31 @@ namespace Business.Concrete
         public IResult Add(Product product)
         {
 
+            IResult result = BusinessRules.Run(CheckIfProductNameExist(product.ProductName), CheckIfCategoryIsEnabled());
+            if (result != null)
+            {
+                return result;
+            }
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
+        }
+
+        private IResult CheckIfProductNameExist(string productName)
+        {
+            if (_productDal.Get(p => p.ProductName == productName) != null)
+            {
+                return new ErrorResult(Messages.ProductNameAlreadyExist);
+            }
+            return new SuccessResult();
+        }
+        private IResult CheckIfCategoryIsEnabled()
+        {
+            var result = _categoryService.GetList();
+            if (result.Data.Count < 10)
+            {
+                return new ErrorResult(Messages.ProductNameAlreadyExist);
+            }
+            return new SuccessResult();
         }
 
         public IResult Delete(Product product)
