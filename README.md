@@ -1,2 +1,2 @@
 # DotnetCoreWebApi
-.Net Core Web Api ile hazırlamış olduğum birçok teknolojinin kullanıldığı örnek bir web api projesidir.
+.Net Core Web Api ile hazırlamış olduğum örnek bir web api projesidir.
